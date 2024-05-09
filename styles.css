@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+@font-face {
+    font-family: ubuntu_font;
+    src: url(Ubuntu-Medium.ttf);
+  }
+
+.layout-container {
+    display: flex;
+    row-gap: 0px;
+}
+
+.form-container {
+  margin-right: 400px;
+}
+
+.header-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mona-img {
+    width: 80%;
+
+}
+
+h2 {
+    font-family: ubuntu_font, 'Courier New', Courier, monospace;
+}
+
+
