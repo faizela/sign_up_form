@@ -16,8 +16,9 @@
     row-gap: 0px;
 }
 
-.form-container {
+.form_layout_container {
   margin-right: 400px;
+
 }
 
 .header-container {
@@ -26,6 +27,31 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.names-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  width: 5px;
+  height: 30px;
+}
+
+.emailandphone-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  width: 5px;
+  height: 30px;
+}
+
+.pswrd-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  width: 5px;
+  height: 30px;
+}
+
 
 .mona-img {
     width: 80%;
